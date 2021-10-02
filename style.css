@@ -1,75 +1,75 @@
-body{
-	background-color: #232323;
-	margin: 0;
-	font-family: "Monsterrat", "Avenir";
+body {
+  background-color: #232324;
+  margin: 0;
+  font-family: "Monsterrat", "Avenir";
 }
 
-.square{
-	background-color: purple;
-	width: 30%;
-	border-radius: 15%;
-	float: left;
-	margin: 1.66%;
-	padding-bottom: 30%;
-	transition: background 0.8s;
-	--webkit-transition: background 0.8s;
-	--moz-transition: background 0.8s;
+.square {
+  background-color: purple;
+  width: 30%;
+  border-radius: 15%;
+  float: left;
+  margin: 1.66%;
+  padding-bottom: 30%;
+  transition: background 0.8s;
+  --webkit-transition: background 0.8s;
+  --moz-transition: background 0.8s;
 }
 
-#container{
-	margin: 20px auto;
-	max-width: 550px;
+#container {
+  margin: 20px auto;
+  max-width: 550px;
 }
 
-#stripe{
-	background-color: white;
-	height: 30px;
-	text-align: center;
-	color: black;
+#stripe {
+  background-color: white;
+  height: 30px;
+  text-align: center;
+  color: black;
 }
 
-.selected{
-	background-color: steelblue;
-	color: #fff!important;
+.selected {
+  background-color: steelblue;
+  color: #fff !important;
 }
 
-h1{
-	color: white;
-	margin: 0;
-	font-weight: normal;
-	text-transform: uppercase;
-	text-align: center;
-	line-height: 1.1;
-	padding: 20px 0;
-	background-color: steelblue;
+h1 {
+  color: white;
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.1;
+  padding: 20px 0;
+  background-color: steelblue;
 }
 
-#colorDisplay{
-	font-size: 200%;
+#colorDisplay {
+  font-size: 200%;
 }
 
-button{
-	border: none;
-	background: none;
-	text-transform: uppercase;
-	height: 100%;
-	font-weight: 700;
-	color: steelblue!important;
-	letter-spacing: 1px;
-	font-size: inherit;
-	transition: all 0.3s;
-	--webkit-transition: all 0.3s;
-	--moz-transition: all 0.3s;
-	outline: none;
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: steelblue !important;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 0.3s;
+  --webkit-transition: all 0.3s;
+  --moz-transition: all 0.3s;
+  outline: none;
 }
 
-#message{
-	display: inline-block;
-	width: 20%;
+#message {
+  display: inline-block;
+  width: 20%;
 }
 
-button:hover{
-	cursor: pointer;
-	color: #fff!important;
-	background-color: steelblue;
+button:hover {
+  cursor: pointer;
+  color: #fff !important;
+  background-color: steelblue;
 }
